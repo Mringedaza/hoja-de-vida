@@ -1,0 +1,402 @@
+.Foto
+{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 70%;
+    top: 8%;
+    border-radius:150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    overflow:hidden;   
+    transition:scale 0.5s;
+}
+.Foto:hover
+{
+    transform:scale(1.1);transform:scale(1.1);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado
+ {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px black solid;
+}
+.contenido
+{
+    width: 50%;
+    height: 0%;
+    background-color:white;
+    position: absolute;
+    left: 20%;
+    transform: skewY(3.07deg   );
+    top: 15%;
+}
+.Informacion
+{
+    width: 99.859%;
+    height: 300px;
+    background-color:rgb(206, 206, 206);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    transform: skewY(-3.07deg);
+}
+* {
+    background-color: white ;
+}
+.principal 
+{
+    background-color:#f7e4d3;
+}
+.nombre
+{
+    font-size: 40px;
+    background-color:rgb(206, 206, 206);
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nombre:hover 
+{
+    font-weight: 900; 
+    color: rgb(99, 13, 13);
+}
+
+
+.direccion
+{
+    background-color:rgb(206, 206, 206);
+    margin-bottom: 0;
+
+}
+
+.direccion:hover { font-weight: bold; color: rgb(99, 13, 13); }
+
+.contacto
+{
+    background-color:rgb(206, 206, 206);
+    margin-bottom: 0;
+
+}
+
+.contacto:hover { font-weight: bold; color: rgb(99, 13, 13); }
+.email
+{
+    background-color:rgb(206, 206, 206);
+    margin-bottom: 0;
+
+}
+.email:hover { font-weight: bold; color: rgb(99, 13, 13); }
+.imagen
+{
+ justify-content: flex-end;   
+ margin-bottom: 0;
+
+}
+
+.perfil {
+    width: 80%;
+    height: auto;
+    background-color: rgb(206, 206, 206);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+}
+
+.ocupa
+{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(206, 206, 206);;
+    border-bottom: 2px black dashed;
+}
+
+
+.perfilContiene
+{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(206, 206, 206);
+
+}
+
+.perfilContiene:hover
+{
+    font-weight:bold;
+}
+    
+.academica
+{
+    width: 80%;
+    height: auto;
+    background-color: rgb(206, 206, 206);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+}
+.uni1
+{
+    width: 70%;
+    height: auto;
+    background-color: #f7f7f7;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    transition: scale 0.5s;
+}
+.uni1:hover
+{
+    transform:scale(1.2);transform:scale(1.2);
+}
+.tituloAca
+{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-bottom: 2px black dashed;
+}
+.sanBuena
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.infoSan
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+
+}
+.cole
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.infoCole
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+
+
+
+
+
+
+
+    
+.laboral
+{
+    width: 80%;
+    height: auto;
+    background-color: rgb(206, 206, 206);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+}
+.chamba1
+{
+    width: 70%;
+    height: auto;
+    background-color: #f7f7f7;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    transition: scale 0.5s;
+}
+
+.chamba1:hover
+{
+    transform:scale(1.2);transform:scale(1.2);
+}
+.tituloExp
+{
+    border-bottom: 2px black dashed;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+}
+.Parkin
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.infoPar
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+
+}
+.jero
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.infoJero
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+
+
+
+
+.complemento
+{
+    width: 80%;
+    height: auto;
+    background-color: rgb(206, 206, 206);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+}
+
+.cursos
+{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-bottom: 2px black dashed;
+}
+
+.cursosC
+{
+    width: 70%;
+    height: auto;
+    background-color: #f7f7f7;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    transition: scale 0.5s;
+}
+.cursosC:hover
+{
+    transform:scale(1.2);transform:scale(1.2);
+}
+
+
+.sena
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.sena1
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+
+
+.referencias
+{
+    width: 80%;
+    height: auto;
+    background-color: rgb(206, 206, 206);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.refe
+{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-bottom: 2px black dashed;
+}
+
+.personales
+{
+    width: 70%;
+    height: auto;
+    background-color: #f7f7f7;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 8px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    transition:scale 0.5s;
+}
+.personales:hover
+{
+    transform:scale(1.2);transform:scale(1.2);
+}
+
+.perso 
+{
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+.ciudad 
+{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.ciudad:hover
+{
+    font-weight: 900; 
+    color: rgb(99, 13, 13);
+    
+}
+
+.pie 
+{
+    border-bottom: 2px black solid;
+}
+
